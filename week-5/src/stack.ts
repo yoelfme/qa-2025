@@ -3,9 +3,9 @@ export function balancedBrackets(str) {
     const openingBrackets = '({[';
     const closingBrackets = ')}]';
     const bracketPairs = {
-        '(': '}',
-        '{': ')',
-        '[': '}'
+        '(': ')',
+        '{': '}',
+        '[': ']'
     };
 
     console.log('Validating string: ', str);
