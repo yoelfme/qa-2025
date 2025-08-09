@@ -8,6 +8,8 @@ export function balancedBrackets(str) {
         '[': ']'
     };
 
+    console.log('Validating string: ', str);
+
     let lastOpeningBracket: string;
 
     for (const char of str) {
