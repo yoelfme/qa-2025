@@ -1,0 +1,19 @@
+{
+  "name": "week-9",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@fastify/postgres": "^6.0.2",
+    "fastify": "^5.6.0",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.4"
+  }
+}
