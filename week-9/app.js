@@ -1,10 +1,11 @@
 import Fastify from "fastify";
+import pg from "@fastify/postgres";
 
 const fastify = Fastify({
   logger: true,
 });
 
-fastify.register(require("@fastify/postgres"), {
+fastify.register(pg, {
   connectionString: "postgres://postgres:Losmejoresalumnos!@localhost/store",
 });
 
